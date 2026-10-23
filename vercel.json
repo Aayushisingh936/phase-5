@@ -1,2 +1,9 @@
-
-{}
+{
+  "outputDirectory": "frontend",
+  "rewrites": [
+    {
+      "source": "/ask-gemini",
+      "destination": "/api/ask-gemini"
+    }
+  ]
+}
